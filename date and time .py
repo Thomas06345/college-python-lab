@@ -1,0 +1,28 @@
+'''Author:Thomas Cherian
+   date: 8-10-24
+   python program:to Familiarize time and date in various formats  '''
+from datetime import datetime
+current_time=datetime.now()
+print(current_time)
+format1=current_time.strftime("%Y-%m-%d-%H-%M-%S")
+print(format1)
+formate2=current_time.strftime("%m/%d/%Y")
+print(formate2)
+formate3=current_time.strftime("%A,%B %d,%Y")
+print(formate3)
+formate4=current_time.strftime("%A,%B %d,%H:%M:%S,%p")
+print(formate4)
+formate5=current_time.strftime("%a-%b-%d,%H:%M:%S IST %Y")
+print(formate5)
+formate6=current_time.strftime("%a-%b-%d,%H:%M:%S IST %Y")
+print(formate6)
+formate7=current_time.isoformat()
+print(formate7)
+formate8=current_time.strftime("%d")
+print(formate8)
+formate9=current_time.strftime("%H-%M-%S")
+print(formate9)
+formate10=current_time.strftime("%m")
+print(formate10)
+formate11=current_time.strftime("%Y")
+print(formate11)

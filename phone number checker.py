@@ -1,5 +1,5 @@
 '''Author:Thomas Cherian
-   date: 20-11-24
+   date: 30-11-24
    python program:To check is a given mobile number is valid.'''
 def mobile_no():
     num=input("enter mobile number:")
